@@ -4,31 +4,337 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio - thejanmv</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Menura - Software Engineer | AI/Data Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>thejanmv</h1>
-        <p>Welcome to my professional portfolio.</p>
-    </header>
-    <section id="intro">
-        <h2>About Me</h2>
-        <p>My name is thejanmv, and I am passionate about software development and design.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-placeholder">
-            <p>Project 1</p>
-            <p>Project 2</p>
-            <p>Project 3</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Menura</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Menura</span></h1>
+            <p class="hero-subtitle">Software Engineer | AI/Data Specialist | Problem Solver</p>
+            <p class="hero-description">Passionate about leveraging AI and data to create innovative solutions and build impactful projects</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/thejanmv" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/thejanmv/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can find me on <a href="https://www.linkedin.com/in/thejanmv/">LinkedIn</a>.</p>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Menura, a passionate software engineer specializing in AI and data-driven solutions. Based in Melbourne, Australia, I have a keen interest in building elegant solutions to complex problems using cutting-edge technologies in artificial intelligence and machine learning.</p>
+                    <p>My journey in software development has been driven by curiosity and the desire to continuously learn and grow. I believe in writing clean, maintainable code and following best practices to deliver high-quality software that makes a real-world impact.</p>
+                    <p>When I'm not coding, I enjoy contributing to open-source projects, exploring the latest developments in AI/ML, and sharing knowledge with the developer community.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Writing maintainable and scalable solutions</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovation</h3>
+                        <p>Always exploring new technologies</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Collaboration</h3>
+                        <p>Team player and open-source contributor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>&copy; 2025 thejanmv</p>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Comprehensive technical expertise across AI, data, and software engineering</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Scala</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Keras</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">XGBoost</span>
+                        <span class="skill-tag">LightGBM</span>
+                        <span class="skill-tag">Deep Learning</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">CNNs</span>
+                        <span class="skill-tag">RNNs</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">Model Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI Specializations</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Natural Language Processing</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Time Series Analysis</span>
+                        <span class="skill-tag">Recommendation Systems</span>
+                        <span class="skill-tag">Anomaly Detection</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                        <span class="skill-tag">Model Deployment</span>
+                        <span class="skill-tag">MLOps</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Data Science & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Plotly</span>
+                        <span class="skill-tag">Statistical Analysis</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">A/B Testing</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">Data Mining</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Big Data & Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">Hadoop</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                        <span class="skill-tag">Data Warehousing</span>
+                        <span class="skill-tag">ETL Pipelines</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Terraform</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Gradio</span>
+                        <span class="skill-tag">Airflow</span>
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">DVC</span>
+                        <span class="skill-tag">Weights & Biases</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Jira</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here are some of my recent projects from GitHub</p>
+            <div id="projects-grid" class="projects-grid">
+                <!-- Projects will be loaded dynamically from GitHub -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading projects from GitHub...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <div class="cv-content">
+                
+                <!-- Education -->
+                <div class="cv-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Bachelor's Degree in Software Engineering</h4>
+                            <span class="cv-date">2019 - 2023</span>
+                        </div>
+                        <p class="cv-location">Melbourne, Australia</p>
+                        <p>Specialized in AI, Machine Learning, and Data Science. Relevant coursework: Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Database Systems, Cloud Computing</p>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="cv-section">
+                    <h3><i class="fas fa-briefcase"></i> Experience</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <h4>Software Engineer - AI/Data</h4>
+                            <span class="cv-date">2024 - Present</span>
+                        </div>
+                        <p class="cv-location">Melbourne, Australia</p>
+                        <ul>
+                            <li>Developed and deployed machine learning models for data-driven decision making</li>
+                            <li>Built scalable data pipelines and ETL processes using Python and AWS</li>
+                            <li>Implemented AI solutions using TensorFlow and PyTorch for real-world applications</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality AI/ML products</li>
+                            <li>Optimized model performance and reduced inference time by 40%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Technical Skills -->
+                <div class="cv-section">
+                    <h3><i class="fas fa-certificate"></i> Technical Skills & Expertise</h3>
+                    <div class="cv-item">
+                        <h4 style="margin-top: 0;">Core Competencies</h4>
+                        <ul>
+                            <li><strong>Machine Learning & AI:</strong> TensorFlow, PyTorch, Keras, Scikit-learn, XGBoost, Deep Learning, Neural Networks, CNNs, RNNs, Transformers</li>
+                            <li><strong>AI Specializations:</strong> Natural Language Processing, Computer Vision, Time Series Analysis, Recommendation Systems, Anomaly Detection, MLOps</li>
+                            <li><strong>Data Science:</strong> Python, R, Pandas, NumPy, Statistical Analysis, Data Visualization (Matplotlib, Seaborn, Plotly), A/B Testing</li>
+                            <li><strong>Big Data:</strong> Apache Spark, Hadoop, PySpark, ETL Pipelines, Data Warehousing</li>
+                            <li><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch</li>
+                            <li><strong>Cloud & DevOps:</strong> AWS, Azure, Google Cloud, Docker, Kubernetes, CI/CD, Terraform, MLflow</li>
+                            <li><strong>Web Development:</strong> React, Node.js, Django, Flask, FastAPI, REST APIs, GraphQL</li>
+                            <li><strong>Languages:</strong> Python, Java, JavaScript, TypeScript, SQL, R, C++, Scala</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cv-download">
+                    <a href="Menura-SoftwareEngineer-AI-Data.pdf" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-file-pdf"></i> View Full CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly chat</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:vishmiththejan@gmail.com">vishmiththejan@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/thejanmv" target="_blank">github.com/thejanmv</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/thejanmv/" target="_blank">linkedin.com/in/thejanmv</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Melbourne, Australia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Menura. Built with passion and code.</p>
+            <div class="footer-links">
+                <a href="https://github.com/thejanmv" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/thejanmv/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
